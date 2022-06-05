@@ -1,0 +1,6 @@
+body{
+    direction: rtl;
+}
+td:hover{
+  background-color:rgb(247, 159, 149);
+}

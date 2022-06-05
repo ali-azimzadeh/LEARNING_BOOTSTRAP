@@ -1,0 +1,19 @@
+ #box1 img{
+  width: 196px; 
+  height:196px; 
+}
+.nav img{
+    width:40%;
+    height: auto;
+text-align: center;
+}
+.nav p{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(9, 16, 109);
+cursor: pointer;
+}

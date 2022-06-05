@@ -1,0 +1,426 @@
+<!-- *************************-->
+<!-- float class in bootstrap -->
+<!-- *************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+
+        <div class="float-start">Float start on all viewport sizes</div><br>
+        <div class="float-end">Float end on all viewport sizes</div><br>
+        <div class="float-none">Don't float on all viewport sizes</div>
+
+    </div>
+</body>
+
+</html> -->
+
+<!-- ************************************-->
+<!-- float responsive class in bootstrap -->
+<!-- ************************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+
+        <div class="float-sm-start">Float start on viewports sized SM (small) or wider</div><br>
+        <div class="float-md-start">Float start on viewports sized MD (medium) or wider</div><br>
+        <div class="float-lg-start">Float start on viewports sized LG (large) or wider</div><br>
+        <div class="float-xl-start">Float start on viewports sized XL (extra-large) or wider</div><br>
+
+    </div>
+</body>
+
+</html> -->
+
+<!-- ***************************************-->
+<!-- text select by user class in bootstrap -->
+<!-- ***************************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+
+        <p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+        <p class="user-select-auto">This paragraph has default select behavior.</p>
+        <p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
+    </div>
+</body>
+
+</html> -->
+
+<!-- **********************************-->
+<!-- pointer events class in bootstrap -->
+<!-- **********************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+
+        <p><a href="#" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> can not be clicked.</p>
+        <p><a href="#" class="pe-auto">This link</a> can be clicked (this is default behavior).</p>
+        <p class="pe-none">
+            <a href="#" tabindex="-1" aria-disabled="true">
+                This link
+            </a> can not be clicked because the
+            <code>pointer-events</code> property is inherited from its parent. However,
+            <a href="#" class="pe-auto">this link</a> has a
+            <code>pe-auto</code> class and can be clicked.
+        </p>
+    </div>
+</body>
+
+</html> -->
+
+<!-- ******************************-->
+<!-- position classes in bootstrap -->
+<!-- ******************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+
+        <div class="position-relative">
+            <div class="position-absolute top-0 start-0">
+                <img src="images/f7575.jpg" width="40px" height="40px">
+            </div>
+
+            <div class=" position-absolute top-0 end-0 ">
+                <img src="images/f7575.jpg" width="40px" height="40px">
+            </div>
+
+            <div class="position-absolute top-50 start-50 ">
+                <img src="images/f7575.jpg" width="40px" height="40px">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html> -->
+
+<!-- ***************************-->
+<!-- badge classes in bootstrap -->
+<!-- ***************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container  ">
+
+
+        <button type="button" class="btn btn-primary position-relative me-4">
+            Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99
+                <span class="visually-hidden">unread messages</span></span>
+        </button>
+
+        <button type="button" class="btn btn-dark position-relative me-4">
+            Marker
+            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+        </button>
+
+        <button type="button" class="btn btn-primary position-relative">
+            Alerts <span
+                class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span
+                    class="visually-hidden">unread messages</span></span>
+        </button>
+    </div>
+</body>
+
+</html> -->
+
+<!-- ******************************-->
+<!-- progress classes in bootstrap -->
+<!-- ******************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="position-relative m-4">
+
+            <div class="progress" style="height: 3px;">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">
+                1
+            </button>
+
+            <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">
+                2
+            </button>
+
+            <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">
+                3
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
+
+<!-- ****************************-->
+<!-- shadow classes in bootstrap -->
+<!-- ****************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+        <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+        <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+    </div>
+
+</body>
+
+</html> -->
+
+<!-- ************************************-->
+<!-- width & height classes in bootstrap -->
+<!-- ************************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+
+            <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">
+                Height 25%
+            </div>
+
+            <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">
+                Height 50%
+            </div>
+
+            <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">
+                Height 75%
+            </div>
+
+            <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">
+                Height 100%
+            </div>
+
+            <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">
+                Height auto
+            </div>
+
+            <br/>
+            <br/>
+
+            <div class="w-auto">
+                <img src="images/frenchfood.jpg" alt="...">
+            </div>
+
+            <br>
+            <br>
+
+            <div style="height: 100px; background-color: rgba(255,0,0,.1);">
+                <div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,.1);">Max-height 100%</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
+
+<!-- *******************************************-->
+<!-- visibile & invisibile classes in bootstrap -->
+<!-- *******************************************-->
+
+<!-- <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Learn 23</title>
+
+    <link href="scripts/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="scripts/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="visible">
+            <img src="images/frenchfood.jpg" alt="...">
+        </div>
+
+        <div class="invisible">
+            <img src="images/frenchfood.jpg" alt="...">
+        </div>
+
+    </div>
+
+</body>
+
+</html> -->
